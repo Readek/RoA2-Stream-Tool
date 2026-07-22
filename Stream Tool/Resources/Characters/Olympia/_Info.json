@@ -1,0 +1,101 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer", "Winterfest", "Yellow"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Badger Co",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Baker"
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Evo"
+        },
+        {
+            "name": "Lovers",
+            "palettes": [
+                "Yellow"
+            ]
+        },
+        {
+            "name": "Low Poly"
+        },
+        {
+            "name": "Opossum"
+        },
+        {
+            "name": "Pool Party",
+            "palettes": [
+                "Summer", "White"
+            ]
+        },
+        {
+            "name": "Primal"
+        },
+        {
+            "name": "Retro"
+        },
+        {
+            "name": "Spotted",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": 30,
+            "y": 70,
+            "scale": 3.5
+        },
+        "HD": {
+            "x": 0,
+            "y": 70,
+            "scale": 3.5
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -500,
+            "y": 85,
+            "scale": 1.15
+        },
+        "HD": {
+            "x": -550,
+            "y": 150,
+            "scale": 1.15
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": 5,
+            "y": 33,
+            "scale": 4.6
+        },
+        "HD": {
+            "x": -8,
+            "y": 37,
+            "scale": 4.6
+        }
+    }
+}

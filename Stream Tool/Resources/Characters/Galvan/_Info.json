@@ -1,0 +1,84 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Blowup",
+            "palettes": [
+                "Purple"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Dozer"
+        },
+        {
+            "name": "Luchador"
+        },
+        {
+            "name": "Retro"
+        },
+        {
+            "name": "Skink",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Yuletide"
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        }
+
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": -70,
+            "y": 15,
+            "scale": 3.8
+        },
+        "HD": {
+            "x": -73,
+            "y": 23,
+            "scale": 3.5
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -645,
+            "y": 108,
+            "scale": 1.31
+        },
+        "HD": {
+            "x": -850,
+            "y": 143,
+            "scale": 1.7
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": -30,
+            "y": 5,
+            "scale": 5.5
+        },
+        "HD": {
+            "x": -30,
+            "y": 15,
+            "scale": 5
+        }
+    }
+}

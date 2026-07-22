@@ -1,0 +1,37 @@
+{
+  "name": "RoA2-ST",
+  "version": "1.0.0",
+  "description": "An electron GUI to manage RoA2 streams.",
+  "main": "index.js",
+  "repository": "https://github.com/Readek/RoA2-Stream-Tool",
+  "author": "Readek",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^35.0.1",
+    "electron-builder": "^25.1.8"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "Readek.RoA2StreamTool.RoA2StreamToolGUI",
+    "productName": "RoA2 Stream Tool",
+    "executableName": "RoA2 Stream Tool",
+    "linux": {
+      "target": "AppImage",
+      "category": "Game",
+      "desktop": {
+        "Name": "RoA2 Stream Tool",
+        "GenericName": "Stream Tool"
+      }
+    },
+    "win": {
+      "target": "portable"
+    }
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "ws": "^8.18.1"
+  }
+}

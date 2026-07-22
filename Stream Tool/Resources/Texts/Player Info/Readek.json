@@ -1,0 +1,29 @@
+{
+  "name": "Readek",
+  "tag": "",
+  "pronouns": "",
+  "socials": {
+    "twitter": "",
+    "twitch": "Readek",
+    "yt": "Readek",
+    "bsky": "",
+    "fedi": "readek@mastodon.social"
+  },
+  "characters": [
+    {
+      "character": "Maypul",
+      "skin": "Default",
+      "palette": "Default"
+    },
+    {
+      "character": "Guadua",
+      "skin": "Red"
+    },
+    {
+      "character": "Ori and Sein",
+      "skin": "Default",
+      "hex": "3B3B-3BC4-FFC4-0000-006F-91FF-62FF-8387",
+      "customImg": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Challenger", "Cool Blue", "Mint", "Pink", "Purple", "Toma", "White", "Yellow"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Evo"
+        },
+        {
+            "name": "Flower Mantis"
+        },
+        {
+            "name": "Hornet"
+        },
+        {
+            "name": "Lucha",
+            "palettes": [
+                "Orange"
+            ]
+        },
+        {
+            "name": "Pajama",
+            "palettes": [
+                "Siesta"
+            ]
+        },
+        {
+            "name": "Primal",
+            "palettes": [
+                "White", "Yellow"
+            ]
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": 0,
+            "y": 40,
+            "scale": 3.5
+        },
+        "HD": {
+            "x": -60,
+            "y": -10,
+            "scale": 3.5
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -500,
+            "y": 0,
+            "scale": 1.15
+        },
+        "HD": {
+            "x": -650,
+            "y": 0,
+            "scale": 1.25
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": 5,
+            "y": 20,
+            "scale": 4.6
+        },
+        "HD": {
+            "x": -25,
+            "y": -5,
+            "scale": 4.5
+        }
+    }
+}

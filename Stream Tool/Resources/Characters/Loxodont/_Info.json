@@ -1,0 +1,120 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Chef",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Cow",
+            "palettes": [
+                "Mint"
+            ]
+        },
+        {
+            "name": "Dark Future",
+            "palettes": [
+                "Mecha", "Royal"
+            ]
+        },
+        {
+            "name": "Gardener"
+        },
+        {
+            "name": "Giraffe"
+        },
+        {
+            "name": "Hockey",
+            "palettes": [
+                "Battle of BC", "LMBM", "Orange", "Valhalla"
+            ]
+        },
+        {
+            "name": "Holiday"
+        },
+        {
+            "name": "Lovers",
+            "palettes": [
+                "Cool Blue", "Mint", "White", "Yellow"
+            ]
+        },
+        {
+            "name": "Mammoth",
+            "palettes": [
+                "Purple"
+            ]
+        },
+        {
+            "name": "Pool Party"
+        },
+        {
+            "name": "Retro",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Zebra",
+            "palettes": [
+                "Cool Blue"
+            ]
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": -22,
+            "y": 43,
+            "scale": 4
+        },
+        "HD": {
+            "x": -80,
+            "y": -20,
+            "scale": 4
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -765,
+            "y": 70,
+            "scale": 1.5
+        },
+        "HD": {
+            "x": -900,
+            "y": 0,
+            "scale": 1.75
+        },
+        "background": "Zetterburn"
+    },
+    "gui": {
+        "neutral": {
+            "x": -25,
+            "y": 30,
+            "scale": 5.5
+        },
+        "HD": {
+            "x": -45,
+            "y": 0,
+            "scale": 5.5
+        }
+    }
+}

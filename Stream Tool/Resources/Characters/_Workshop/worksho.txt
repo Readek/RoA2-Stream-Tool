@@ -1,0 +1,1 @@
+Any folder structured like the ones on the main character folder will work here. Character list will be swapped to the characters of this folder if you toggle "Use Workshop characters" in the ST settings.

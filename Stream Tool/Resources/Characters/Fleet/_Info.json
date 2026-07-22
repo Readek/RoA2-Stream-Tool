@@ -1,0 +1,128 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer", "Winterfest"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Arctic",
+            "palettes": [
+                "Orange"
+            ]
+        },
+        {
+            "name": "Aussie"
+        },
+        {
+            "name": "Badger Princess",
+            "palettes": [
+                "Kickstarter"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Cupid",
+            "palettes": [
+                "Yellow"
+            ]
+        },
+        {
+            "name": "Fan",
+            "palettes": [
+                "Kickstarter"
+            ]
+        },
+        {
+            "name": "Husky",
+            "palettes": [
+                "Purple"
+            ]
+        },
+        {
+            "name": "Lovers",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Pool Party",
+            "palettes": [
+                "Black", "Pink"
+            ]
+        },
+        {
+            "name": "Princess",
+            "palettes": [
+                "Kickstarter"
+            ]
+        },
+        {
+            "name": "Pyjama",
+            "palettes": [
+                "Cool Blue", "Kickstarter", "Siesta"
+            ]
+        },
+        {
+            "name": "Ranger",
+            "palettes": [
+                "Tactical"
+            ]
+        },
+        {
+            "name": "Retro"
+        },
+        {
+            "name": "Sunny"
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": -39,
+            "y": 64,
+            "scale": 4
+        },
+        "HD": {
+            "x": 70,
+            "y": 40,
+            "scale": 4
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -620,
+            "y": 100,
+            "scale": 1.2
+        },
+        "HD": {
+            "x": -515,
+            "y": 25,
+            "scale": 1.3
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": -10,
+            "y": 33,
+            "scale": 5
+        },
+        "HD": {
+            "x": 40,
+            "y": 35,
+            "scale": 7
+        }
+    }
+}

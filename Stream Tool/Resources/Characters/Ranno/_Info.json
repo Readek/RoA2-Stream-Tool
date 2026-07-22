@@ -1,0 +1,154 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer", "Winterfest"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Black Widow"
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Clown",
+            "palettes": [
+                "Purple", "Yellow"
+            ]
+        },
+        {
+            "name": "Dart Frog",
+            "palettes": [
+                "Foil"
+            ]
+        },
+        {
+            "name": "Lovers",
+            "palettes": [
+                "Cool Blue"
+            ],
+            "lovers": true
+        },
+        {
+            "name": "Low Poly",
+            "palettes": [
+                "Orange"
+            ]
+        },
+        {
+            "name": "Luchador"
+        },
+        {
+            "name": "Pool Party",
+            "palettes": [
+                "Riptide"
+            ]
+        },
+        {
+            "name": "Retro"
+        },
+        {
+            "name": "Slam Dunk",
+            "palettes": [
+                "Big Moves", "Don't Park on the Grass", "Frosty", "GOTE", "Heatwave", "LACS", "Platfight", "Smash Camp", "SSE", "Supernova", "UFA"
+            ]
+        },
+        {
+            "name": "Smoke Clan",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Snow Day",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Solid",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Tree Frog",
+            "palettes": [
+                "Purple"
+            ]
+        },
+        {
+            "name": "Tuxedo",
+            "palettes": [
+                "Pink"
+            ]
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        },
+        {
+            "name": "LoA HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": 41,
+            "y": 107,
+            "scale": 4
+        },
+        "HD": {
+            "x": 9,
+            "y": 120,
+            "scale": 4.5
+        },
+        "LoA HD": {
+            "x": 25,
+            "y": 195,
+            "scale": 4.9
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -494,
+            "y": 212,
+            "scale": 1.25
+        },
+        "HD": {
+            "x": -490,
+            "y": 200,
+            "scale": 1.27
+        },
+        "LoA HD": {
+            "x": -475,
+            "y": 290,
+            "scale": 1.3
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": 10,
+            "y": 80,
+            "scale": 7
+        },
+        "HD": {
+            "x": 10,
+            "y": 60,
+            "scale": 5
+        },
+        "LoA HD": {
+            "x": 20,
+            "y": 98,
+            "scale": 6
+        }
+    }
+}

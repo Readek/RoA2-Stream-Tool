@@ -1,0 +1,144 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer", "Winterfest"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Cheetah"
+        },
+        {
+            "name": "Cyber"
+        },
+        {
+            "name": "Dandelion"
+        },
+        {
+            "name": "Excaliburn"
+        },
+        {
+            "name": "Flavorburn"
+        },
+        {
+            "name": "Lovers",
+            "palettes": [
+                "Challenger", "Citifest", "Collision", "Combo Breaker", "PGRE", "Platfight", "Port Priority", "Somnio"
+            ],
+            "lovers": true
+        },
+        {
+            "name": "Low Poly"
+        },
+        {
+            "name": "Pajama",
+            "palettes": [
+                "Siesta"
+            ]
+        },
+        {
+            "name": "Panther",
+            "palettes": [
+                "Pink", "Yellow"
+            ]
+        },
+        {
+            "name": "Plushie"
+        },
+        {
+            "name": "Retro"
+        },
+        {
+            "name": "Santa",
+            "palettes": [
+                "White"
+            ]
+        },
+        {
+            "name": "Tiger",
+            "palettes": [
+                "White"
+            ]
+        },
+        {
+            "name": "Vampire",
+            "palettes": [
+                "White"
+            ]
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        },
+        {
+            "name": "LoA HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": -15,
+            "y": 33,
+            "scale": 4
+        },
+        "Presskit": {
+            "x": -51,
+            "y": 49,
+            "scale": 4.7
+        },
+        "HD": {
+            "x": -82,
+            "y": 63,
+            "scale": 4.4
+        },
+        "LoA HD": {
+            "x": 10,
+            "y": 147,
+            "scale": 5.8
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -644,
+            "y": -24,
+            "scale": 1.25
+        },
+        "HD": {
+            "x": -768,
+            "y": 226,
+            "scale": 1.7
+        },
+        "LoA HD": {
+            "x": -500,
+            "y": 150,
+            "scale": 1.2
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": 5,
+            "y": 20,
+            "scale": 5
+        },
+        "HD": {
+            "x": -35,
+            "y": 30,
+            "scale": 5.5
+        },
+        "LoA HD": {
+            "x": 10,
+            "y": 67,
+            "scale": 6.5
+        }
+    }
+}

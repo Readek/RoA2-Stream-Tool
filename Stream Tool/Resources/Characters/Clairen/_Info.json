@@ -1,0 +1,149 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer", "Winterfest", "Yellow"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Baseball",
+            "palettes": [
+                "GOML", "Hbox", "Heatwave"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Elf"
+        },
+        {
+            "name": "Léon",
+            "palettes": [
+                "Purple"
+            ]
+        },
+        {
+            "name": "Lovers",
+            "palettes": [
+                "Black"
+            ],
+            "lovers": true
+        },
+        {
+            "name": "Low Poly"
+        },
+        {
+            "name": "Mecha",
+            "palettes": [
+                "Yellow"
+            ]
+        },
+        {
+            "name": "Pirate"
+        },
+        {
+            "name": "Pool Party",
+            "palettes": [
+                "Black", "Summer"
+            ]
+        },
+        {
+            "name": "Rainy Day"
+        },
+        {
+            "name": "Ranger",
+            "palettes": [
+                "Tactical"
+            ]
+        },
+        {
+            "name": "Retro",
+            "palettes": [
+                "Black", "Orange"
+            ]
+        },
+        {
+            "name": "Samurai",
+            "palettes": [
+                "Mint"
+            ]
+        },
+        {
+            "name": "Slasher",
+            "palettes": [
+                "Purple"
+            ]
+        },
+        {
+            "name": "Tiger"
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        },
+        {
+            "name": "LoA HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": -60,
+            "y": 65,
+            "scale": 4
+        },
+        "LoA HD": {
+            "x": 15,
+            "y": 145,
+            "scale": 4.8
+        },
+        "HD": {
+            "x": -73,
+            "y": 53,
+            "scale": 3.3
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -645,
+            "y": 108,
+            "scale": 1.31
+        },
+        "HD": {
+            "x": -837,
+            "y": 143,
+            "scale": 1.5
+        },
+        "LoA HD": {
+            "x": -510,
+            "y": 310,
+            "scale": 1.4
+        }
+
+    },
+    "gui": {
+        "neutral": {
+            "x": -30,
+            "y": 30,
+            "scale": 5.5
+        },
+        "HD": {
+            "x": -30,
+            "y": 30,
+            "scale": 5
+        },
+        "LoA HD": {
+            "x": 15,
+            "y": 70,
+            "scale": 5.8
+        }
+    }
+}

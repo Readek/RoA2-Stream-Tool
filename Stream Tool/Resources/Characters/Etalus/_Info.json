@@ -1,0 +1,123 @@
+{
+    "skinList": [
+        {
+            "name": "Default",
+            "palettes": [
+                "Abyssal", "Black", "Cool Blue", "Mint", "Purple", "Spooky", "Summer"
+            ]
+        },
+        {
+            "name": "Abyss",
+            "palettes": [
+                "Midnight"
+            ]
+        },
+        {
+            "name": "Champion"
+        },
+        {
+            "name": "Franken"
+        },
+        {
+            "name": "Grizzly",
+            "palettes": [
+                "Winterfest"
+            ]
+        },
+        {
+            "name": "Honey",
+            "palettes": [
+                "Mint", "Pink"
+            ]
+        },
+        {
+            "name": "Low Poly"
+        },
+        {
+            "name": "Lucha"
+        },
+        {
+            "name": "Mecha",
+            "palettes": [
+                "Black"
+            ]
+        },
+        {
+            "name": "Primal"
+        },
+        {
+            "name": "Retro"
+        },
+        {
+            "name": "Striped",
+            "palettes": [
+                "White"
+            ]
+        },
+        {
+            "name": "Sunbear",
+            "palettes": [
+                "Frosty", "Purple"
+            ]
+        },
+        {
+            "name": "HD",
+            "nonFolder": true
+        },
+        {
+            "name": "LoA HD",
+            "nonFolder": true
+        }
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": -70,
+            "y": 65,
+            "scale": 3.5
+        },
+        "LoA HD": {
+            "x": 25,
+            "y": 180,
+            "scale": 5
+        },
+        "HD": {
+            "x": -81,
+            "y": 92,
+            "scale": 3.6
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+            "x": -761,
+            "y": 220,
+            "scale": 1.4
+        },
+        "LoA HD": {
+            "x": -510,
+            "y": 310,
+            "scale": 1.4
+        },
+        "HD": {
+            "x": -722,
+            "y": 150,
+            "scale": 0.95
+        }
+    },
+    "gui": {
+        "neutral": {
+            "x": -10,
+            "y": 30,
+            "scale": 4
+        },
+        "LoA HD": {
+            "x": 15,
+            "y": 83,
+            "scale": 6
+        },
+        "HD": {
+            "x": -32,
+            "y": 37,
+            "scale": 3
+        }
+    }
+}

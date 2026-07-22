@@ -1,0 +1,19 @@
+{
+  "name": "Test",
+  "tag": "Test",
+  "pronouns": "Tes/est",
+  "socials": {
+    "twitter": "Test",
+    "twitch": "Test",
+    "yt": "Test",
+    "bsky": "Test",
+    "fedi": "Test"
+  },
+  "characters": [
+    {
+      "character": "Clairen",
+      "skin": "Low Poly",
+      "palette": "Red"
+    }
+  ]
+}
