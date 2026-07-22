@@ -7,31 +7,37 @@
   "author": "Readek",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^35.0.1",
-    "electron-builder": "^25.1.8"
+    "electron": "^43.2.0",
+    "electron-builder": "^26.15.3"
   },
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder"
   },
+  "desktopName": "Readek.RoA2StreamTool.RoA2StreamToolGUI.desktop",
   "build": {
-    "appId": "Readek.RoA2StreamTool.RoA2StreamToolGUI",
     "productName": "RoA2 Stream Tool",
     "executableName": "RoA2 Stream Tool",
     "linux": {
       "target": "AppImage",
       "category": "Game",
+      "synopsis": "RoA2 Stream Tool GUI",
+      "description": "An electron GUI to manage RoA2 streams.",
       "desktop": {
-        "Name": "RoA2 Stream Tool",
-        "GenericName": "Stream Tool"
-      }
+        "entry": {
+          "Name": "RoA2 Stream Tool",
+          "Comment": "An electron GUI to manage RoA2 streams",
+          "Categories": "Game"
+        }
+      },
+      "syncDesktopName": true
     },
     "win": {
       "target": "portable"
     }
   },
   "dependencies": {
-    "adm-zip": "^0.5.16",
-    "ws": "^8.18.1"
+    "adm-zip": "^0.6.0",
+    "ws": "^8.21.1"
   }
 }

@@ -1,7 +1,7 @@
 
 <p align="center">
 
-  <img src="https://github.com/Readek/RoA2-Stream-Tool/blob/master/preview.png" alt="Preview">
+  <img src="https://github.com/Readek/RoA2-Stream-Tool/blob/main/preview.png" alt="Preview">
   
 </p>
 
@@ -13,7 +13,7 @@ This is your familiar RoA stream tool, but now updated to be used for the second
 
 This is kinda why I don't consider this a serious 1.0 yet, because for it to be complete, I would have to rework VS and Scoreboard overlays. Which may (or may not) happen! It also doesnt have the cleanests of code.
 
-Now that this is a proper, separated repo, it will be easier for me to update it and add tiny feeatures overtime.
+Now that this is a proper, separated repo, it will be easier for me to update it and add tiny features overtime.
 
 **Pull requests** are welcome, even if its just to fix a typo or to update a render!
 
