@@ -62,12 +62,12 @@ export function loadKeybinds() {
     });
 
     // F1 or F2 to give players a score tick
-    Mousetrap.bind('f1', () => {
-        scores[0].giveWin();
+    Mousetrap.bind('f1', async () => {
+        await scores[0].giveWin();
         if (settings.isScoreAutoChecked()) {writeScoreboard()};
     });
-    Mousetrap.bind('f2', () => {
-        scores[1].giveWin();
+    Mousetrap.bind('f2', async () => {
+        await scores[1].giveWin();
         if (settings.isScoreAutoChecked()) {writeScoreboard()};
     });
 

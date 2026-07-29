@@ -51,7 +51,7 @@ export class Score {
 
     }
 
-    setScore(score) {
+    async setScore(score) {
 
         let actualScore;
         if (score <= 0) {
@@ -77,18 +77,20 @@ export class Score {
         }
 
         // when last game of a bo5 set, shit can get serious
+        const promises = [];
         for (let i = 0; i < players.length; i++) {
-            players[i].setVsBg();
+            promises.push(players[i].setVsBg());
         }
+        await Promise.all(promises);
 
         this.#scoreNumEl.value = actualScore;
 
     }
 
     /** Gives (or takes) a win to/from the player */
-    giveWin() {
+    async giveWin() {
         const value = settings.isInvertScoreChecked() ? -1 : 1;
-        this.setScore(this.getScore()+value);
+        await this.setScore(this.getScore()+value);
     }
 
     /** Sets the display mode for score inputs */
