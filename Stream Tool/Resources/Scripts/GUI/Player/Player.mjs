@@ -245,8 +245,8 @@ export class Player {
             return browserCharPath + `/${char}/${extraPath}/${skin.name}/${palette}.png`;
         } else if (await fileExists(`${stPath.char}/${char}/${extraPath}/${skin.name}/Default.png`)) {
             return browserCharPath + `/${char}/${extraPath}/${skin.name}/Default.png`;
-        } else if (await fileExists(`${stPath.char}/${char}/${extraPath}/${skin.name}.png`)) {
-            return browserCharPath + `/${char}/${extraPath}/${skin.name}.png`;
+        } else if (await fileExists(`${stPath.char}/${char}/${extraPath}/Default/Default.png`)) {
+            return browserCharPath + `/${char}/${extraPath}/Default/Default.png`;
         } else {
             return `Resources/Characters/Random/${failPath}.png`;;
         }
