@@ -15,7 +15,9 @@ export const stPath = {
     charWork : realPath + '/Characters/_Workshop',
     overlay: realPath + '/Overlay',
     text : realPath + '/Texts',
-    scripts: realPath + '/Scripts'
+    scripts: realPath + '/Scripts',
+    /** This is the internal node path, can be used to find modules */ 
+    node : "",
 };
 
 /** Current values for stuff */

@@ -2,6 +2,7 @@ import { replaceBracket, updateBracket } from './Bracket.mjs';
 import { saveJson } from './File System.mjs';
 import { commFinder } from './Finder/Comm Finder.mjs';
 import { playerFinder } from './Finder/Player Finder.mjs';
+import { stPath } from './Globals.mjs';
 import { updateGUI } from './Remote Update.mjs';
 import { settings } from './Settings.mjs';
 import { writeScoreboard } from './Write Scoreboard.mjs';
@@ -139,3 +140,10 @@ ipc.on('remoteGuiData', async (event, data) => {
 export function updateRemotePresets() {
     ipc.send("sendData", JSON.stringify({id: "remoteGUI", message: "updatePresets"}, null, 2));
 }
+
+export function getNodePath() {
+    ipc.send("getNodePath");
+}
+ipc.on('giveNodePath', (event, data) => {
+    stPath.node = data;
+})

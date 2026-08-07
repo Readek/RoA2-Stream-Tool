@@ -366,14 +366,20 @@ They will always appear when typing 'Grand' in the round box.">
                 <button class="settingsButton zoomButton" id="lessZoomButt">-</button>
                 <div id="zoomTextValue">100%</div>
                 <button class="settingsButton zoomButton" id="moreZoomButt">+</button>
-              </div>            
+              </div>
             </div>
           </div>
   
           <div id="settingsButtonSection">
+
             <button class="settingsButton" id="restoreWindowButt" tabindex="-1" title='Restores the default window width, height, and zoom values'>
               Restore default dimensions
             </button>
+
+            <button class="settingsButton" id="gitUpdateButt" title="Updates the app to the latest developer version">
+              Update to latest GIT
+            </button>
+
           </div>
 
         </div>
@@ -574,6 +580,34 @@ They will always appear when typing 'Grand' in the round box.">
 <div id="casterFinder" class="finder">
   <div class="searchList"></div>
 </div>
+
+<!-- stuff that will get overlayed on the entire screen -->
+<dialog id="updateAppModal" class="confModal">
+  <div class="confModalContent">
+
+    <div id="updateModalTitle" class="confModalTitle">Update to latest GIT</div>
+    <div id="updateModalDesc" class="confModalDesc">
+      This will update the app to the latest developer version.
+      The update will overwrite any modified app files, but it will
+      not delete files you manually added, nor old unused files.
+    </div>
+    <div class="regionButtons" id="updateModalButts">
+
+      <button id="updateModalGoBack" class="updateButt">
+        <load-svg src="SVGs/Close.svg" class="svgIcon"></load-svg>
+        <div>Go back</div>
+      </button>
+
+      <button id="updateModalAccept" class="updateButt">
+        <load-svg src="SVGs/Check.svg" class="svgIcon"></load-svg>
+        <div id="updateModalAcceptText">Update!</div>
+      </button>
+
+    </div>
+
+  </div>
+</dialog>
+
   
 </body>
 </html>

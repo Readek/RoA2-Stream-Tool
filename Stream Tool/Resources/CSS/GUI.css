@@ -886,8 +886,10 @@ button:hover {
 
 #settingsButtonSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 5px 0px;
+  gap: 5px;
+  margin: 5px 10px;
 }
 .settingsButton {
   padding: 2px 5px;
@@ -1200,7 +1202,109 @@ button:hover {
 
 }
 
+/* For dialogs */
+/* This is ported straight from Pokemon ST sorry for the mess */
+.svgIcon {
+  width: 20px;
+  height: 20px;
+  margin: 0px -2px;
+  fill: var(--text2);
+}
 
-#caster1, #caster2 {
-  display: none;
+.regionButtons {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.updateButt {
+  padding: 2px 6px;
+  font-size: 14px;
+  height: 32px;
+  font-family: "Roboto-Medium";
+  border: solid 2px var(--focused);
+  border-radius: 5px;
+  color: var(--text2);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: border-color 100ms;
+}
+.updateButt {
+  text-transform: uppercase;
+}
+.updateButt:hover,
+.updateButt:focus-visible {
+  border: solid 2px var(--text2);
+}
+.updateButt:active {
+  filter: brightness(.8);
+}
+
+.confModal[open] {
+  opacity: 1;
+  transform: scale(1);
+}
+.confModal {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  color: var(--text1);
+  opacity: 0;
+  transform: scale(1.1);
+  transition: all .2s allow-discrete;
+}
+@starting-style {
+  .confModal[open] {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+}
+.confModal::backdrop {
+  background-color: #00000000;
+  backdrop-filter: blur(0px);
+  transition: all 0.2s allow-discrete;
+}
+.confModal[open]::backdrop {
+  background-color: var(--bg4);
+  backdrop-filter: blur(5px);
+}
+@starting-style {
+  .confModal[open]::backdrop {
+    backdrop-filter: blur(0px);
+    background-color: #00000000;
+  }
+}
+
+.confModalContent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: none;
+  gap: 10px;
+
+  .updateButt {
+    background-color: var(--bg2);
+  }
+}
+
+.confModalTitle {
+  font-size: 18px;
+  border-bottom: solid 1px var(--text2);
+  padding: 3px 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.confModalDesc {
+  text-align: justify;
+  max-width: 600px;
+  overflow-y: auto;
+  padding: 10px 12px;
+  border: 2px solid var(--bg5);
+  border-radius: 5px;
+  background-color: var(--bg2);
 }
